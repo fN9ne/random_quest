@@ -24,7 +24,7 @@ function getRandomQuest(gettedQuests, quests) {
 }
 
 button.addEventListener("click", () => {
-	fetch("../quests.json", {
+	fetch("https://fn9ne.github.io/random_quest/quests.json", {
 		headers: {
 			"Content-type": "application/json",
 		},
